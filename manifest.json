@@ -1,0 +1,31 @@
+{
+    "name": "Boplats - map view",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://nya.boplats.se/sok*"
+            ],
+            "run_at": "document_end",
+            "js": [
+                "js/boplats.js"
+            ]
+        }
+    ],
+    "description": "Adds a maps in the search view of Boplats, so that you can se where the apartment is without having to open up each item.",
+    "icons": {
+        "19": "images/icon_19.png",
+        "38": "images/icon_38.png",
+        "128": "images/icon_128.png"
+    },
+    "browser_action": {
+        "default_title": "Boplats.se - map view",
+        "default_icon": {
+            "19": "images/icon_19.png",
+            "38": "images/icon_38.png"
+        },
+        "default_popup": "html/main.html"
+    },
+    "homepage_url": "http://marph.io"
+}
