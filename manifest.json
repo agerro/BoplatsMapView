@@ -1,5 +1,5 @@
 {
-    "name": "Boplats - map view",
+    "name": "Boplats.se - map view",
     "version": "1.0",
     "manifest_version": 2,
     "content_scripts": [
@@ -13,7 +13,7 @@
             ]
         }
     ],
-    "description": "Adds a maps in the search view of Boplats, so that you can se where the apartment is without having to open up each item.",
+    "description": "Adds a maps in the search view of Boplats.se, so that you can se where the apartment is without having to open up each item.",
     "icons": {
         "19": "images/icon_19.png",
         "38": "images/icon_38.png",
@@ -26,6 +26,5 @@
             "38": "images/icon_38.png"
         },
         "default_popup": "html/main.html"
-    },
-    "homepage_url": "http://marph.io"
+    }
 }
