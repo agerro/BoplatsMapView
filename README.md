@@ -3,6 +3,7 @@
     </head>
     <body>
         <h2>Boplats.se - map view</h2>
+        <div>Wrote this because I got tired of having to open each item to see the map of where the apartment is</div>
         <h3>Chrome extension</h3>
         <div><b>Version:</b> 1.1</div>
         <div><b>Author:</b> Marcus Karlsson</div>
